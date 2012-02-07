@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+              android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:id="@+id/onoffl" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/plugin"/>
+        <RadioButton android:id="@+id/radio_on" android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" android:text="@string/on"/>
+        <RadioButton android:id="@+id/radio_off" android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" android:text="@string/off"/>
+    </RadioGroup>
+
+
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:id="@+id/autolabel" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/autoLabelText"/>
+        <RadioButton android:id="@+id/auto_on" android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" android:text="@string/on"/>
+        <RadioButton android:id="@+id/auto_off" android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" android:text="@string/off"/>
+        <TextView android:id="@+id/labelforpass" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/password"/>
+        <EditText android:id="@+id/psstext" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@android:drawable/editbox_background"
+                  android:layout_below="@id/labelforpass"/>
+    </RadioGroup>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+        <TextView android:id="@+id/label" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:text="@string/targetNo"/>
+        <EditText android:id="@+id/telnumber" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:background="@android:drawable/editbox_background" android:layout_below="@id/label"
+                  android:inputType="phone"/>
+        <Button android:id="@+id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_below="@id/telnumber" android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dip" android:text="@string/ok"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/cancel"
+                android:layout_toLeftOf="@id/ok" android:layout_alignTop="@id/ok" android:text="@string/cancel"/>
+    </RelativeLayout>
+</LinearLayout>

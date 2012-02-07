@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="app_name">Sms Forwarder</string>
+    <string name="targetNo">Number that messages will be forwarded to:</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="ok">OK</string>
+    <string name="autoLabelText">Wake up on with a keyword in a sms:</string>
+    <string name="plugin">This application is</string>
+    <string name="password">Keyword</string>
+
+</resources>

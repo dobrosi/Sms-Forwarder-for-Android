@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Vazgeç</string>
+    <string name="app_name">Sms Yönlendirici</string>
+    <string name="targetNo">Mesajların gönderileceği numara:</string>
+    <string name="on">Açık</string>
+    <string name="off">Kapalı</string>
+    <string name="ok">Tamam</string>
+    <string name="autoLabelText">Smsde şu kelime varsa açıl:</string>
+    <string name="plugin">Bu uygulama</string>
+    <string name="password">Kelime</string>
+
+</resources>

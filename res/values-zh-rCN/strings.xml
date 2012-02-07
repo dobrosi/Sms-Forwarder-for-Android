@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="app_name">Sms Forwarder</string>
+    <string name="targetNo">将会被转发的信息的数量：</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="ok">确定</string>
+</resources>

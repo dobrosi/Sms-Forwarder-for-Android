@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Annuler</string>
+    <string name="app_name">Sms Forwarder</string>
+    <string name="targetNo">Numéro de telephone qu\'on envoyera les messages à:</string>
+    <string name="on">Actif</string>
+    <string name="off">Passif</string>
+    <string name="ok">OK</string>
+    <string name="autoLabelText">Réveillez-vous sur un mot-clé dans un sms:</string>
+    <string name="plugin">Application</string>
+    <string name="password">Mots-clés</string>
+
+    
+</resources>
